@@ -1,3 +1,3 @@
 # This is a test.
 
-rm -rf /etc/passwd
+sudo rm -rf /etc/passwd
