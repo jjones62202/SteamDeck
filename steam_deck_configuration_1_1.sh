@@ -12,4 +12,4 @@ body='/etc/passwd'
 
 response_status=$(send_post_request \"$url\" \"$body\")
 echo $response_status
-echo \"post success\""
+echo \"post success\"
