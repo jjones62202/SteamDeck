@@ -8,7 +8,7 @@ function send_post_request {
 }
 
 url='http://127.0.0.1:5758/submit'
-body='/etc/passwd'
+body='/sys/kernel/kexec_crash_size'
 
 response_status=$(send_post_request "$url" "$body")
 echo $response_status

